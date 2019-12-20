@@ -30,7 +30,7 @@ while True:
 7 - Завершить программу """})
 
             elif body.lower() == '1':
-                vk.method("messages.send", {"peer_id": id, 'random_id': 0, "message": 'Отлично, запускаю сценарий решения квадратного уравнения через дискриминант!'})
+                vk.method("messages.send", {"peer_id": id, 'random_id': 0, "message": 'Отличн, запускаю сценарий решения квадратного уравнения через дискриминант!'})
                 vk.method("messages.send", {"peer_id": id, 'random_id': 0, "message": """Введите первый коэффициент (a!=0)"""})
                 i = 0
 
